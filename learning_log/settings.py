@@ -40,7 +40,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 
 DISABLE_COLLECTSTATIC=1
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # My settings
 
