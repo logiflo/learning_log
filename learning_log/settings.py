@@ -24,6 +24,8 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 from my_secrets import secrets
 SECRET_KEY = secrets.SECRET_KEY
 
+DISABLE_COLLECTSTATIC=1
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
